@@ -53,3 +53,13 @@ header nav li a {
 header nav li a:hover {
 	color: #E41;
 }
+
+#pages {
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.handheld, #tabs {
+	display: none;
+}
