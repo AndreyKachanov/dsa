@@ -1,0 +1,28 @@
+body {
+	/*background: url(../../images/background_wood.jpg);*/
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Start Header */
+
+header {
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+header p {
+	font: normal 3.5em/1.5em 'Marck Script', cursive;
+	/*color: #F9DD15;*/
+	text-shadow: -2px 0 2px #006;
+	 background: -webkit-linear-gradient(#F9DD16, #3A75C4);
+ 	 -webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+header img {
+	display: block;
+	max-width: 150px;
+	margin: auto;
+	margin-top: 10px;
+}
