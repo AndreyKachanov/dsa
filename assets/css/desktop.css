@@ -1,6 +1,7 @@
 body {
 	/*background: url(../../images/background_wood.jpg);*/
-	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Open Sans', sans-serif;*/
+	 font-family: 'Philosopher', sans-serif;
 }
 
 /* Start Header */
@@ -11,18 +12,44 @@ header {
 	text-align: center;
 }
 
-header p {
-	font: normal 3.5em/1.5em 'Marck Script', cursive;
-	/*color: #F9DD15;*/
-	text-shadow: -2px 0 2px #006;
-	 background: -webkit-linear-gradient(#F9DD16, #3A75C4);
- 	 -webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
+header a.emblem {
+	display: block;
+	width: 320px;
+	height: 208px;
+	margin: 0 auto;
 }
 
-header img {
-	display: block;
-	max-width: 150px;
-	margin: auto;
-	margin-top: 10px;
+
+header h1 a {
+	font: normal 4em/1.5em 'Marck Script', cursive;
+	color: #FDED00;
+	text-decoration: none;
+    text-shadow: 0 0 3px hsl(202, 100%, 37%), 1px 1px 0 hsl(20, 100%, 16%);
+}
+
+header nav {
+	margin: 18px 0;
+	border-bottom: 2.5px solid #000;
+	padding-bottom: 5px;
+}
+
+
+header li {
+	display: inline;
+	border-right: 1px solid #A21;
+}
+
+header li:last-child {
+	border-right:none;
+}
+
+header nav li a {
+	font-size: 1.8em;
+	color: #A21;
+	text-decoration: none;
+	padding: 0 10px;
+}
+
+header nav li a:hover {
+	color: #E41;
 }
