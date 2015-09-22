@@ -1,7 +1,8 @@
 body {
+	background: #ccc;
 	/*background: url(../../images/background_wood.jpg);*/
-	/*font-family: 'Open Sans', sans-serif;*/
-	 font-family: 'Philosopher', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	 /*font-family: 'Philosopher', sans-serif;*/
 }
 
 /* Start Header */
@@ -62,4 +63,81 @@ header nav li a:hover {
 
 .handheld, #tabs {
 	display: none;
+}
+
+.courtlist {
+	float: left;
+	width: 320px;
+}
+
+.courtlist img {
+	width: 80px;
+	height: 80px;
+	border: 4px solid #FFF;
+	position: relative;
+	float: left;
+    -webkit-box-shadow:0 5px 10px #000;
+    -moz-box-shadow:0 5px 10px rgba(0, 0, 0, 0.7);
+    box-shadow:0 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+.courtlist h2 {
+	font: normal 2em/1em 'Lobster', cursive;
+	color: #A21;
+	display: block;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+}
+
+.courtlist p {
+	padding: 5px 50px 10px 0;
+	font: bold 1em/1.1em 'Poiret One', cursive;
+	font-weight: bold;
+	font-style: italic;
+	color: #540502;
+}
+
+.courtlist li {
+	padding: 10px;
+}
+
+.courtlist li:hover {
+	cursor: pointer;
+}
+
+.courtlist li:hover img {
+	display: block;
+	padding-left: 1px;
+}
+
+.courtlist .info {
+    color: #674;
+	width: 200px;
+	float:left;
+}
+
+.courtlist .info .photoname {
+	font: normal 1.3em/1em 'Istok Web', sans-serif;
+	color: #674;
+	display: block;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+	padding-left: 10px;
+}
+
+.courtlist .info .description {
+	display: block;
+	padding-left: 10px;
+	font-size: 0.8em;
+	line-height: 1em;
+}
+
+.courtlist .info .rating {
+	font: normal 1.2em/1.3em 'Open Sans', sans-serif;
+	color: #A21;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+	display: block;
+	padding: 5px 0 10px 10px;
+}
+
+.courtlist li:hover .photoname {
+	color: #A21;
 }
