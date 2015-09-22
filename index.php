@@ -167,7 +167,17 @@
 		</section> <!-- Хорошие суды -->
 	</div>	
 </section>
-
+<footer class="group">
+	<p>01601, м. Київ, вул. Липська 18/5 &#9733; 0-800-500-271</p>
+	<nav id="bottomnav">
+		<ul>
+			<li id="fbmenu"><a href="index.php">Суды</a></li>
+			<li id="fbaboutus"><a href="aboutus.html">О нас</a></li>
+			<li id="fbcallus" class="handheld"><a href="tel:+380800500271">Позвонить</a></li> 
+			<li id="fbmap"><a href="map.html">Карта</a></li>
+		</ul>
+	</nav>
+</footer>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script>window.jQuery || document.write("<script src='assets/js/libs/jquery-1.11.3.min.js'>\x3C/script>")</script>
 <script src="assets/js/functions.js"></script>
