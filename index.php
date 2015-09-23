@@ -53,8 +53,8 @@
 	<nav id="topnav">
 		<ul>
 			<li><a href="index.php">Суды</a></li>
-			<li><a href="aboutus.html">О нас</a></li>
-			<li><a href="map.html">Карта</a></li>
+			<li><a href="aboutus.php">О нас</a></li>
+			<li><a href="map.php">Карта</a></li>
 		</ul>
 	</nav>
 </header>
@@ -172,9 +172,9 @@
 	<nav id="bottomnav">
 		<ul>
 			<li id="fbmenu"><a href="index.php">Суды</a></li>
-			<li id="fbaboutus"><a href="aboutus.html">О нас</a></li>
+			<li id="fbaboutus"><a href="aboutus.php">О нас</a></li>
 			<li id="fbcallus" class="handheld"><a href="tel:+380800500271">Позвонить</a></li> 
-			<li id="fbmap"><a href="map.html">Карта</a></li>
+			<li id="fbmap"><a href="map.php">Карта</a></li>
 		</ul>
 	</nav>
 </footer>
