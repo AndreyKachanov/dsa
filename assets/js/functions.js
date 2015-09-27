@@ -13,8 +13,8 @@ function initialize() {
 		$('<div></div>').attr('id', 'spinner').appendTo('#pages'); //spinner
 		$('#pages').load( e.target.href + ' #loadcontent', function() { //stop spinner
 			fadespinner();
-			foodclicks();
-			tabclicks();
+			courtclicks();
+			// tabclicks();
 		}); //pages finished loading
 	}); //clicked on nav
 
@@ -31,8 +31,8 @@ function initialize() {
 		centerimage();
 	});
 
-	foodclicks();
-	tabclicks();
+	courtclicks();
+	// tabclicks();
 }
 
 // function scrollfix() {
@@ -61,20 +61,20 @@ function centerimage(){
 	$('#overlayimg').css('left',((window.innerWidth - $('#overlayimg').outerWidth()) / 2)+'px');
 }
 
-function tabclicks() {
-	$('#tabs li').click(function(e){
-		$('#tabs li').attr("class","");
-		$(this).attr('class', 'tapped');
+// function tabclicks() {
+// 	$('#tabs li').click(function(e){
+// 		$('#tabs li').attr("class","");
+// 		$(this).attr('class', 'tapped');
 		
-		whichpage=$(this).attr('id').substr(3); //get the name of the page to turn on
-		$('#pages section').attr('class','foodlist hide'); //hide all of the lists
-		$('#pages #'+whichpage).attr('class','foodlist show');
-	});
-}
+// 		whichpage=$(this).attr('id').substr(3); //get the name of the page to turn on
+// 		$('#pages section').attr('class','courtlist hide'); //hide all of the lists
+// 		$('#pages #'+whichpage).attr('class','courtlist show');
+// 	});
+// }
 
-function foodclicks() {
-	//click on foodlist items to see them larger image onscreen
-	$('.foodlist li').click(function(e){
+function courtclicks() {
+	//click on courtlist items to see them larger image onscreen
+	$('.courtlist li').click(function(e){
 		
 		//Add the Overlay
 		$('<div></div>').attr('id', 'overlay').appendTo('body').hide().fadeIn("slow");
@@ -104,7 +104,7 @@ function foodclicks() {
 			$('<div></div>').attr('id', 'clicktoreturn')
 			.appendTo('#overlay').hide().delay(500).fadeIn(400).delay(1500).fadeOut(400); //continue all at once.
 		});
-	}); //foodlist click
+	}); //courtlist click
 }
 
 

@@ -79,7 +79,7 @@
 		<ul>
 			<li id="fbmenu"><a href="index.php">Суди</a></li>
 			<li id="fbaboutus"><a href="aboutus.php">Про нас</a></li>
-			<li id="fbcallus" class="handheld"><a href="tel:+380800500271">Зателефонувати</a></li> 
+			<li id="fbcallus" class="handheld"><a href="tel:+380800500271">Call</a></li> 
 			<li id="fbmap"><a href="map.php">Карта</a></li>
 		</ul>
 	</nav>
