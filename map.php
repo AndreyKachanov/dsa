@@ -61,16 +61,14 @@
 <section id="pages" class="group">
 	<div id="loadcontent" class="group">
 		<section id="map">
-			<p>Мы расположены в чудесном городе Киев, на улице Липской 18/5.</p>
-			<p>Нажмите на карту, чтобы получить направление.</p>
-			<a href="http://maps.google.com/maps?q=4171+Market+St+Ventura+CA">
-				<img src="http://maps.google.com/maps/api/staticmap?center=4171+Market+St+Ventura+CA&amp;zoom=15&amp;size=500x400&amp;format=png32&amp;maptype=roadmap&amp;markers=4171+Market+St+Ventura+CA&amp;sensor=false" />
+			<p>Мы расположены в чудесном городе Киев, на улице Липской 18/5. Нажмите на карте, чтобы получить направление.</p>
+			<a href="https://www.google.com.ua/maps/place/%D0%B2%D1%83%D0%BB.+%D0%9B%D0%B8%D0%BF%D1%81%D1%8C%D0%BA%D0%B0,+18%2F5,+%D0%9A%D0%B8%D1%97%D0%B2/@50.4457936,30.5260282,12.75z/data=!4m2!3m1!1s0x40d4cfab10fc5beb:0x550cdee63d6bb560!6m1!1e1?hl=ru">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48343.61043384585!2d30.526028217563333!3d50.4457935553066!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cfab10fc5beb%3A0x550cdee63d6bb560!2z0LLRg9C7LiDQm9C40L_RgdGM0LrQsCwgMTgvNSwg0JrQuNGX0LI!5e0!3m2!1sru!2sua!4v1443361386063" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 			</a>
-			<h3>Hours of Operation</h3>
+			<h3>Розклад роботи:</h3>
 			<ul>
-				<li>Monday-Thursdays 9am-9pm</li>
-				<li>Fridays 9am-midnight</li>
-				<li>Sundays Noon-8pm</li>
+				<li>Понеділок - Четвер 9:00 - 18:00</li>
+				<li>П'ятниця 9:00 - 16:45</li>
 			</ul>
 		</section>	
 	</div>	
