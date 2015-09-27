@@ -52,8 +52,8 @@
 	<h1><a href="#">Судова влада України</a></h1>
 	<nav id="topnav">
 		<ul>
-			<li><a href="index.php">Суды</a></li>
-			<li><a href="aboutus.php">О нас</a></li>
+			<li><a href="index.php">Суди</a></li>
+			<li><a href="aboutus.php">Про нас</a></li>
 			<li><a href="map.php">Карта</a></li>
 		</ul>
 	</nav>
@@ -168,12 +168,12 @@
 	</div>	
 </section>
 <footer class="group">
-	<p>01601, м. Київ, вул. Липська 18/5 &#9733; 0-800-500-271</p>
+	<p>01601, м. Київ, вул. Липська 18/5 &#9731; 0-800-500-271</p>
 	<nav id="bottomnav">
 		<ul>
-			<li id="fbmenu"><a href="index.php">Суды</a></li>
-			<li id="fbaboutus"><a href="aboutus.php">О нас</a></li>
-			<li id="fbcallus" class="handheld"><a href="tel:+380800500271">Позвонить</a></li> 
+			<li id="fbmenu"><a href="index.php">Суди</a></li>
+			<li id="fbaboutus"><a href="aboutus.php">Про нас</a></li>
+			<li id="fbcallus" class="handheld"><a href="tel:+380800500271">Зателефонувати</a></li> 
 			<li id="fbmap"><a href="map.php">Карта</a></li>
 		</ul>
 	</nav>

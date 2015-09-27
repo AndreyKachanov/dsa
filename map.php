@@ -52,8 +52,8 @@
 	<h1><a href="#">Судова влада України</a></h1>
 	<nav id="topnav">
 		<ul>
-			<li><a href="index.php">Суды</a></li>
-			<li><a href="aboutus.php">О нас</a></li>
+			<li><a href="index.php">Суди</a></li>
+			<li><a href="aboutus.php">Про нас</a></li>
 			<li><a href="map.php">Карта</a></li>
 		</ul>
 	</nav>
@@ -61,9 +61,9 @@
 <section id="pages" class="group">
 	<div id="loadcontent" class="group">
 		<section id="map">
-			<p>Мы расположены в чудесном городе Киев, на улице Липской 18/5. Нажмите на карте, чтобы получить направление.</p>
-			<a href="https://www.google.com.ua/maps/place/%D0%B2%D1%83%D0%BB.+%D0%9B%D0%B8%D0%BF%D1%81%D1%8C%D0%BA%D0%B0,+18%2F5,+%D0%9A%D0%B8%D1%97%D0%B2/@50.4457936,30.5260282,12.75z/data=!4m2!3m1!1s0x40d4cfab10fc5beb:0x550cdee63d6bb560!6m1!1e1?hl=ru">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48343.61043384585!2d30.526028217563333!3d50.4457935553066!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cfab10fc5beb%3A0x550cdee63d6bb560!2z0LLRg9C7LiDQm9C40L_RgdGM0LrQsCwgMTgvNSwg0JrQuNGX0LI!5e0!3m2!1sru!2sua!4v1443361386063" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<p>Ми розташовані в місті Києві, матері міст руських, на вулиці Липській 18/5. Натисніть на карті, щоб отримати направлення.</p>
+			<a href="http://maps.google.com/maps?q=вул.+Липська,+18%2F5,+Київ,+Украина">
+				<img src="http://maps.google.com/maps/api/staticmap?center=вул.+Липська,+18%2F5,+Київ,+Украина&amp;zoom=13&amp;size=500x400&amp;format=png32&amp;maptype=roadmap&amp;markers=вул.+Липська,+18%2F5,+Київ,+Украина&amp;sensor=false">
 			</a>
 			<h3>Розклад роботи:</h3>
 			<ul>
@@ -74,12 +74,12 @@
 	</div>	
 </section>
 <footer class="group">
-	<p>01601, м. Київ, вул. Липська 18/5 &#9733; 0-800-500-271</p>
+	<p>01601, м. Київ, вул. Липська 18/5 &#9731; 0-800-500-271</p>
 	<nav id="bottomnav">
 		<ul>
-			<li id="fbmenu"><a href="index.php">Суды</a></li>
-			<li id="fbaboutus"><a href="aboutus.php">О нас</a></li>
-			<li id="fbcallus" class="handheld"><a href="tel:+380800500271">Позвонить</a></li> 
+			<li id="fbmenu"><a href="index.php">Суди</a></li>
+			<li id="fbaboutus"><a href="aboutus.php">Про нас</a></li>
+			<li id="fbcallus" class="handheld"><a href="tel:+380800500271">Зателефонувати</a></li> 
 			<li id="fbmap"><a href="map.php">Карта</a></li>
 		</ul>
 	</nav>
