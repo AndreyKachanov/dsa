@@ -43,6 +43,8 @@
 	<link href='https://fonts.googleapis.com/css?family=Lobster|Marmelad|Bad+Script|Poiret+One&subset=latin,cyrillic' rel='stylesheet' type='text/css'>	
  	<link href='https://fonts.googleapis.com/css?family=Istok+Web&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
  	<link href='https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+ 	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+ 	<link href='https://fonts.googleapis.com/css?family=PT+Sans:400italic|Bad+Script|Forum|Ubuntu+Mono:400,700italic|Lobster|PT+Sans+Narrow&subset=latin,cyrillic,cyrillic-ext' rel='stylesheet' type='text/css'>
  <script src="assets/js/libs/prefixfree.min.js"></script>
 	 <script src="assets/js/libs/modernizr-2.8.3.dev.js"></script>
 </head>
@@ -82,7 +84,7 @@
 				<li class="group">
 					<img src="images/courts/suvorovskiy_tn.jpg" alt="Суворовський районний суд м. Одеса" />
 					<span class="info">
-						<span class="photoname">Суворовський районний суд м. Одеса</span>
+						<span class="photoname">Суворовський районний суд</span>
 						<span class="description"> На теле Суворовского районного суда г. Одессы имеется такой гнойный прыщ как судья Галий Снежана.</span>
 						<span class="rating"></span>
 					</span>
@@ -107,7 +109,7 @@
 		</section> <!-- Плохие суды -->
 		<section class="courtlist hide" id="good_court">
 			<h2>Красавеллы</h2>
-			<p>Нормальные суды, которые никогда не морозятся. Ты им сказал как это сделать, они берут и сами делают.</p>
+			<p>Нормальные парни, которые никогда не морозятся. Ты им сказал как это сделать, они берут и сами делают.</p>
 			<ul class="group">
 				<li class="group">
 					<img src="images/courts/borislavskiy_tn.jpg" alt="Бориславський міський суд" />

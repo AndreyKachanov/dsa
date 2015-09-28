@@ -16,6 +16,15 @@ header, #pages, body, footer {
 	display: block;
 }
 
+#pages nav#tabs li {
+	font: bold 0.8em 'PT Sans Narrow', sans-serif;
+	padding-top: 6px;
+}
+
+.courtlist .info .rating {
+	padding: 0;
+}
+
 .handheld {
 	display: inline;
 }
@@ -32,6 +41,9 @@ header img {
 
 header h1 a {
 	font: normal 1.8em/1.5em 'Marck Script', cursive;
+	display: block;
+	position: relative;
+	top: -10px;
 }
 
 #overlay img {
@@ -100,7 +112,7 @@ footer nav li:last-child a {
 
 
 footer nav li#fbmenu a{
-	background: url(../../images/icons/icon-menu.png) no-repeat center center;
+	background: url(../../images/icons/icon-courts.png) no-repeat top center;
 }
 
 footer nav li#fbaboutus a{
@@ -136,4 +148,69 @@ footer nav li#fbmap a{
 	display: block;
 	margin-right:0;
 	float: left;
+}
+
+
+
+/* Start Map Page */
+
+#map {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#map p {
+	right: 0;
+	font-size: 1em;
+	padding: 10px;
+}
+
+#map ul {
+	padding-bottom:70px;
+}
+
+/* End Map Page */
+
+
+/* Start About us Page */
+
+#aboutus img {
+	padding-top: 10px;
+	border: 0px;
+	width: 100%;
+
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+}
+
+#aboutus .content {
+	width: 100%;
+	padding-bottom: 70px;
+}
+
+#aboutus h2 {
+	padding-top: 10px;
+	text-align: center;
+}
+
+#aboutus p {
+	font-size: .9em;
+	line-height: 1.2em;
+	font: 1em 'Forum', cursive;
+}
+
+/* End About us Page */
+
+#pages nav#tabs li {
+	padding-top: 5px;
+}
+
+
+
+footer li {
+    display: inline;
+    border-right: none;
 }

@@ -22,10 +22,10 @@ header a.emblem {
 
 
 header h1 a {
-	font: normal 4em/1.5em 'Marck Script', cursive;
+	font: normal 5em/1.5em 'Marck Script', cursive;
 	color: #FDED00;
 	text-decoration: none;
-    text-shadow: 0 0 3px hsl(202, 100%, 37%), 1px 1px 0 hsl(20, 100%, 16%);
+    text-shadow: 0 0 3px hsl(202, 100%, 37%), 1px 1px 0 hsl(191, 84%, 42%)
 }
 
 header nav {
@@ -37,7 +37,7 @@ header nav {
 
 header li {
 	display: inline;
-	border-right: 1px solid #A21;
+	border-right: 1px solid #343434;
 }
 
 header li:last-child {
@@ -45,8 +45,8 @@ header li:last-child {
 }
 
 header nav li a {
-	font-size: 1.8em;
-	color: #A21;
+	font-size: 1.4em;
+	color: #343434;
 	text-decoration: none;
 	padding: 0 10px;
 }
@@ -92,7 +92,7 @@ footer nav li a:hover {
 #pages {
 	width: 960px;
 	margin: 0 auto;
-	margin-top: 30px;
+	margin-top: 23px;
 }
 
 .handheld, #tabs {
@@ -116,22 +116,20 @@ footer nav li a:hover {
 }
 
 .courtlist h2 {
-	font: normal 2em/1em 'Lobster', cursive;
+	font: normal 1.8em/1em 'Lobster', cursive;
 	color: #A21;
 	display: block;
 	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
 }
 
 .courtlist p {
-	padding: 5px 50px 10px 0;
-	font: bold 1em/1.1em 'Poiret One', cursive;
-	font-weight: bold;
-	font-style: italic;
+	padding: 10px 50px 10px 0;
+	font: italic normal 1.2em 'PT Sans', sans-serif;
 	color: #540502;
 }
 
 .courtlist li {
-	padding: 10px;
+	padding: 10px 5px 10px 10px;
 }
 
 .courtlist li:hover {
@@ -144,13 +142,13 @@ footer nav li a:hover {
 }
 
 .courtlist .info {
-    color: #674;
+    color: #343434;
 	width: 200px;
 	float:left;
 }
 
 .courtlist .info .photoname {
-	font: normal 1.3em/1em 'Istok Web', sans-serif;
+	font: bold 0.85em 'Istok Web', sans-serif;
 	color: #674;
 	display: block;
 	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
@@ -162,6 +160,7 @@ footer nav li a:hover {
 	padding-left: 10px;
 	font-size: 0.8em;
 	line-height: 1em;
+	font: 1em 'Forum', cursive;
 }
 
 .courtlist .info .rating {
@@ -202,6 +201,8 @@ footer nav li a:hover {
 #aboutus p {
 	float: left;
 	padding: 5px 20px;
+	font: 1em 'Forum', cursive;
+	color: #343434;
 }
 
 #map {
@@ -209,6 +210,8 @@ footer nav li a:hover {
 	width: 500px;
 	margin: 0 auto;
 	text-align: center;
+		font: 1em 'Forum', cursive;
+	color: #343434;
 }
 
 #map p {
