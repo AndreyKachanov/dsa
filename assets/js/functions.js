@@ -14,7 +14,7 @@ function initialize() {
 		$('#pages').load( e.target.href + ' #loadcontent', function() { //stop spinner
 			fadespinner();
 			courtclicks();
-			// tabclicks();
+			tabclicks();
 		}); //pages finished loading
 	}); //clicked on nav
 
@@ -30,9 +30,8 @@ function initialize() {
 
 		centerimage();
 	});
-
 	courtclicks();
-	// tabclicks();
+	tabclicks();
 }
 
 // function scrollfix() {
@@ -61,16 +60,16 @@ function centerimage(){
 	$('#overlayimg').css('left',((window.innerWidth - $('#overlayimg').outerWidth()) / 2)+'px');
 }
 
-// function tabclicks() {
-// 	$('#tabs li').click(function(e){
-// 		$('#tabs li').attr("class","");
-// 		$(this).attr('class', 'tapped');
+function tabclicks() {
+	$('#tabs li').click(function(e){
+		$('#tabs li').attr("class","");
+		$(this).attr('class', 'tapped');
 		
-// 		whichpage=$(this).attr('id').substr(3); //get the name of the page to turn on
-// 		$('#pages section').attr('class','courtlist hide'); //hide all of the lists
-// 		$('#pages #'+whichpage).attr('class','courtlist show');
-// 	});
-// }
+		whichpage=$(this).attr('id').substr(4); //get the name of the page to turn on
+		$('#pages section').attr('class','courtlist hide'); //hide all of the lists
+		$('#pages #'+whichpage).attr('class','courtlist show');
+	});
+}
 
 function courtclicks() {
 	//click on courtlist items to see them larger image onscreen
