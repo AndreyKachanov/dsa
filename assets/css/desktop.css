@@ -124,7 +124,7 @@ footer nav li a:hover {
 
 .courtlist p {
 	padding: 10px 50px 10px 0;
-	font: italic normal 1.2em 'PT Sans', sans-serif;
+	font: italic normal 1.1em 'PT Sans', sans-serif;
 	color: #540502;
 }
 
@@ -148,7 +148,7 @@ footer nav li a:hover {
 }
 
 .courtlist .info .photoname {
-	font: bold 0.85em 'Istok Web', sans-serif;
+	font: bold 1.1em 'Istok Web', sans-serif;
 	color: #674;
 	display: block;
 	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
@@ -164,11 +164,12 @@ footer nav li a:hover {
 }
 
 .courtlist .info .rating {
-	font: normal 1.2em/1.3em 'Open Sans', sans-serif;
+	font: italic normal 0.9em 'fira_sansitalic',arial,sans-serif;
 	color: #A21;
 	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
 	display: block;
 	padding: 5px 0 10px 10px;
+	margin-top: 5px;
 }
 
 .courtlist li:hover .photoname {
@@ -269,8 +270,8 @@ footer nav li a:hover {
 
 #overlay .photoname {
 	display: block;
-	width:600px;
-	margin:0 auto;
+	width:650px;
+	margin:4px auto;
 	font-size: 1.8em;
 	font-weight:bold;
 	display: block;
@@ -279,8 +280,17 @@ footer nav li a:hover {
  
 #overlay .description {
 	display: block;
-	width:600px;
+	width:700px;
 	margin:0 auto;
+}
+
+#overlay .rating {
+    display: block;
+    width: 380px;
+    margin: 6px auto;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: right;
 }
 
 /* Start Tabs Control */

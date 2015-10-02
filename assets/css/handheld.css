@@ -21,10 +21,6 @@ header, #pages, body, footer {
 	padding-top: 6px;
 }
 
-.courtlist .info .rating {
-	padding: 0;
-}
-
 .handheld {
 	display: inline;
 }
