@@ -210,3 +210,17 @@ footer li {
     display: inline;
     border-right: none;
 }
+
+
+#aboutus p {
+	float: left;
+	padding: 5px 20px;
+	font: 1em 'Forum', cursive;
+	color: #343434;
+}
+
+#map p, #map ul, #map h3 {
+	font-size: 1.2em;
+	line-height: 1.3em;
+	padding-bottom: 10px;
+}

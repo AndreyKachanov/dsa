@@ -34,7 +34,7 @@ header h1 a {
 
 .courtlist ul li {
 	width: 252px;
-	height: 360px;
+	min-height: 480px;
 	border: none;
 	float: left;
 	padding: 0 18px;
@@ -84,3 +84,16 @@ header h1 a {
 }
 
 /* End About us Page */
+
+#aboutus p {
+	float: left;
+	padding: 5px 20px;
+	font: 1.2em 'Forum', cursive;
+	color: #343434;
+}
+
+#map p, #map ul, #map h3 {
+	font-size: 1.2em;
+	line-height: 1.3em;
+	padding-bottom: 10px;
+}
