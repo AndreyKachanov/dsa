@@ -53,6 +53,14 @@
 <div class="wrapper">
 	<header>
 		<a class="emblem" href="index.php"><img src="images/emblem_ukr1.png" title="Судова влада України" alt="Судова влада України"></a>
+		<nav class="dsanav">
+			<ul>
+				<li><a target="_blank" href="http://dsa.court.gov.ua/dsa/">Новини</a></li>
+				<li><a target="_blank" href="http://court.gov.ua/sudy/">Суди</a></li>
+				<li><a target="_blank" href="http://court.gov.ua/fair/">Звіти авторозподiлу</a></li>
+				<li><a target="_blank" href="http://court.gov.ua/sudytax/">Судовий збір</a></li>
+			</ul>
+		</nav>
 		<h1><a href="#">Судова влада України</a></h1>
 		<nav id="topnav">
 			<ul>

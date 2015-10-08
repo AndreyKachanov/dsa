@@ -21,13 +21,19 @@ header {
 	/*width: 960px;*/
 	margin: 0 auto;
 	text-align: center;
+		position: relative;
 }
 
 header a.emblem {
 	display: block;
-	width: 320px;
-	height: 208px;
-	margin: 0 auto;
+	position: absolute;
+	top: -117px;
+	left: 34px;
+	/*margin: 0 auto;*/
+}
+
+header a.emblem img {
+	display: block;
 }
 
 
@@ -38,35 +44,67 @@ header h1 a {
     text-shadow: 0 0 3px hsl(202, 100%, 37%), 1px 1px 0 hsl(191, 84%, 42%)
 }
 
-header nav {
-	margin: 18px 0;
+header h1 {
+	padding-top: 20px;
+}
+
+header nav#topnav {
+	width: 95%;
+	margin: 18px auto;
 	border-bottom: 2.5px solid #000;
 	padding-bottom: 5px;
 }
 
 
-header li {
+header #topnav li {
 	display: inline;
 	border-right: 1px solid #343434;
 }
 
-header li:last-child {
+header #topnav li:last-child {
 	border-right:none;
 }
 
-header nav li a {
+header nav#topnav li a {
 	font-size: 1.4em;
 	color: #343434;
 	text-decoration: none;
 	padding: 0 10px;
 }
 
-header nav li a:hover {
+header nav#topnav li a:hover {
 	color: #E41;
 }
 
+.dsanav {
+	position: absolute;
+	right: 0;
+	top: -80px;
+	background: #fff;
+	border-radius: 9px;
+}
+
+.dsanav li {
+	display: inline-block;
+	/*float: left;*/
+	padding: 6px 9px 6px 0;		
+}
+.dsanav li:first-child {
+	padding-left: 9px;
+}
+
+.dsanav li a {
+	text-decoration: none;
+	font:  0.93em Arial, sans-serif;
+	color: #000;
+}
+
+.dsanav li a:hover {
+	color: #E41;	
+}
+
 footer {
-	/*width: 960px;*/
+	width: 95%;
 	margin: 0 auto;
 	text-align: center;
 	padding-top: 20px;
@@ -75,7 +113,7 @@ footer {
 
 footer nav {	
 	margin: 18px 0;
-	padding-top: 10px;
+	padding: 20px 0;
 	border-top: 2.5px solid #000;
 }
 
@@ -92,6 +130,7 @@ footer li:last-child {
 footer li a {
 	color: #af2411;
 	padding: 0 10px;
+	text-decoration: none;
 }
 
 footer nav li a:hover {
@@ -103,6 +142,7 @@ footer nav li a:hover {
 	width: 960px;
 	margin: 0 auto;
 	margin-top: 23px;
+	padding: 0 30px;
 }
 
 .handheld, #tabs {
@@ -111,8 +151,8 @@ footer nav li a:hover {
 
 .courtlist {
 	float: left;
-	width: 320px;
-	border: 1px solid red;
+	width: 300px;
+	/*border: 1px solid red;*/
 }
 
 .courtlist img {
@@ -382,6 +422,7 @@ nav#tabs li:last-child a:hover {
 	/*padding: 0 30px;*/
 	background: #fff;
 	width: 960px;
-	margin:30px auto;
+	margin: 120px auto 50px auto;
 	border-radius: 8px;
 }
+
