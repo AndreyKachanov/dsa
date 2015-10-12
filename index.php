@@ -53,7 +53,7 @@
 <div class="wrapper">
 	<header>
 		<a class="emblem" href="index.php"><img src="images/emblem_ukr1.png" title="Судова влада України" alt="Судова влада України"></a>
-		<nav class="dsanav">
+		<nav class="dsanav hide">
 			<ul>
 				<li><a target="_blank" href="http://dsa.court.gov.ua/dsa/">Новини</a></li>
 				<li><a target="_blank" href="http://court.gov.ua/sudy/">Суди</a></li>

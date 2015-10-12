@@ -5,23 +5,42 @@
 	display: none;
 }
 
+#pages nav#tabs li {
+	padding: 5px 40px;
+	font-size: 1.5em;
+	height: 45px;
+}
+
 header img {
-	width: 350px;
+	width: 500px;
 	padding-bottom: 10px;
 }
 
 header h1 a {
-	font: normal 2.5em/1.5em 'Marck Script', cursive;
+	font: normal 4em/1.5em 'Marck Script', cursive;
+}
+
+footer {
+	height: 70px;
+
+}
+
+footer nav li a {
+	font-size: 1.3em;
+	width: 92px;
+	padding-top: 38px;
 }
 
 .courtlist {
 	width: 100%;
-	top:308px;
+	top: 514px;
+	padding-bottom: 70px;
 }
 
 .courtlist .info {
 	width: 100%;
 	margin-top:20px;
+	font-size: 1.3em;
 }
 
 .courtlist .info .photoname, .courtlist .info .description, .courtlist .info .price {
@@ -53,7 +72,7 @@ header h1 a {
 /* Start Map Page */
 
 #map p {
-	width:320px;
+	width:90%;
 	margin:0 auto;
 }
 
@@ -63,7 +82,7 @@ header h1 a {
 /* Start About us Page */
 
 #aboutus img {
-	width: 60%;
+	width: 90%;
 	display: block;
 	margin: 0 auto;
 	float: none;
@@ -75,25 +94,46 @@ header h1 a {
 }
 
 #aboutus .content {
-	width: 60%;
+	width: 90%;
 	float: none;
 	display: block;
 	margin: 0 auto;
-	padding-top: 20px	;
-	padding-bottom: 120px	;
+
+}
+
+#aboutus h2 {
+	margin-top: 15px;
 }
 
 /* End About us Page */
 
 #aboutus p {
-	float: left;
+	float: none;
 	padding: 5px 20px;
-	font: 1.2em 'Forum', cursive;
+	font: 1.5em 'Forum', cursive;
 	color: #343434;
 }
 
 #map p, #map ul, #map h3 {
-	font-size: 1.2em;
+	font-size: 1.5em;
 	line-height: 1.3em;
-	padding-bottom: 10px;
+	padding-bottom: 3px;
+}
+
+#map ul {
+	padding-bottom: 65px;
+}
+
+
+footer nav li#fbmenu a {
+	background-position: 50% 20%;
+}
+footer nav li#fbaboutus a {
+	background-position: 50% 20%;
+}
+footer nav li#fbcallus a {
+	background-position: 50% 20%;
+}
+footer nav li#fbmap a {
+	background-position: 50% 20%;
 }

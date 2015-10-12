@@ -1,19 +1,20 @@
-/*html {
-	background: url(../../images/lady_justice.jpg) no-repeat center center fixed;
+html {
+	background: url(../../images/lady_justice_background.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+        font-family: 'Open Sans', sans-serif;
 }
-*/
-body {
-	background: url(../../images/lady_justice.jpg) no-repeat;
-	-moz-background-size: 100%; /* Firefox 3.6+ */
-    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-    -o-background-size: 100%; /* Opera 9.6+ */
-    background-size: 100%; /* Современные браузеры */
+
+/*body {
+	background: url(../../images/lady_justice_background.jpg) no-repeat;
+	-moz-background-size: 100%; 
+    -webkit-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
 	font-family: 'Open Sans', sans-serif;
-}
+}*/
 
 /* Start Header */
 
@@ -79,7 +80,7 @@ header nav#topnav li a:hover {
 .dsanav {
 	position: absolute;
 	right: 0;
-	top: -80px;
+	top: -71px;
 	background: #fff;
 	border-radius: 9px;
 }
@@ -87,10 +88,10 @@ header nav#topnav li a:hover {
 .dsanav li {
 	display: inline-block;
 	/*float: left;*/
-	padding: 6px 9px 6px 0;		
+	padding: 6px 15px 6px 0;		
 }
 .dsanav li:first-child {
-	padding-left: 9px;
+	padding-left: 15px;
 }
 
 .dsanav li a {
@@ -360,10 +361,9 @@ footer nav li a:hover {
 #pages nav#tabs li {
 	float: left;
 	background: #fe9;
-	height: 30px;
-	padding: 10px 15px 0 15px;
+	height: 40px;
 	border: 1px inset #666;
-
+	padding: 9px 23px;
 	background: #ffee99; /* Old browsers */
 	background: -moz-linear-gradient(top, #ffee99 0%, #bb8800 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffee99), color-stop(100%,#bb8800)); /* Chrome,Safari4+ */
@@ -393,9 +393,9 @@ footer nav li a:hover {
 		to(#400)
 	);
 
-	-webkit-box-shadow: inset 2px 2px 2px #A00; 
-	-moz-box-shadow: inset 2px 2px 2px #A00; 
-	box-shadow: inset 2px 2px 2px #A00; 
+	-webkit-box-shadow: 2px 2px 2px #666;
+	-moz-box-shadow: 2px 2px 2px #666;
+	box-shadow: 2px 2px 2px #666;
 	color: #FFF;
 	text-shadow: none;
 }
@@ -405,15 +405,19 @@ footer nav li a:hover {
 	-webkit-border-radius: 10px 0 0 10px; /* Saf3-4, iOS 1-3.2, Android <1.6 */
 	-moz-border-radius: 10px 0 0 10px; /* FF1-3.6 */
 	border-radius: 10px 0 0 10px; /* Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */
-	-moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; 
-}
+	-moz-background-clip: padding; 
+	-webkit-background-clip: padding-box; 
+	background-clip: padding-box; 
 
+}
 #pages nav#tabs li:last-child,
 nav#tabs li:last-child a:hover {
 	-webkit-border-radius: 0 10px 10px 0; 
 	-moz-border-radius: 0 10px 10px 0; 
 	border-radius: 0 10px 10px 0; 
- 	-moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; 
+ 	-moz-background-clip: padding; 
+ 	-webkit-background-clip: padding-box; 
+ 	background-clip: padding-box; 
 }
 /* End Tabs Control */
 
