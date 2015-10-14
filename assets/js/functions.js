@@ -74,6 +74,14 @@ function tabclicks() {
 function courtclicks() {
 	//click on courtlist items to see them larger image onscreen
 	$('.courtlist li').click(function(e){
+      
+        // click target element
+        var $target = $(e.target);
+      
+        // skip clicks on link with "rating" class
+        if ($target.is('a.rating')) {
+          return;
+        }
 		
 		//Add the Overlay
 		$('<div></div>').attr('id', 'overlay').appendTo('body').hide().fadeIn("slow");
@@ -105,7 +113,6 @@ function courtclicks() {
 		});
 	}); //courtlist click
 }
-
 
 
 function fadespinner() {

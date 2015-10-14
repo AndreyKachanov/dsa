@@ -1,15 +1,11 @@
 <!doctype html>
-
-<!--
-	HTML5 Reset: https://github.com/murtaugh/HTML5-Reset
-	Free to use
--->
-
+<!--HTML5 Reset: https://github.com/murtaugh/HTML5-ResetFree to use-->
 <!--[if lt IE 7 ]> <html class="ie ie6 ie-lt10 ie-lt9 ie-lt8 ie-lt7 no-js" lang="en"> <![endif]-->
 <!--[if IE 7 ]>    <html class="ie ie7 ie-lt10 ie-lt9 ie-lt8 no-js" lang="en"> <![endif]-->
 <!--[if IE 8 ]>    <html class="ie ie8 ie-lt10 ie-lt9 no-js" lang="en"> <![endif]-->
 <!--[if IE 9 ]>    <html class="ie ie9 ie-lt10 no-js" lang="en"> <![endif]-->
-<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en"><!--<![endif]-->
 <!-- the "no-js" class is for Modernizr. -->
 
 <head id="dsa">
@@ -34,20 +30,11 @@
 	<link rel="stylesheet" href="assets/css/tablet.css" media="(min-width:1280px) and (max-width:1280px)" />
 	<link rel="stylesheet" href="assets/css/tablet.css" media="(min-width:800px) and (max-width:800px)" />
 
-	<link href='https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Marck+Script&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Philosopher&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-	<link href="http://fonts.googleapis.com/css?family=Leckerli+One|Rokkitt:700,400|Luckiest+Guy" rel="stylesheet" type="text/css">
-	<link href='https://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-	 <link href='https://fonts.googleapis.com/css?family=Lobster|Marmelad|Bad+Script&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Lobster|Marmelad|Bad+Script|Poiret+One&subset=latin,cyrillic' rel='stylesheet' type='text/css'>	
- 	<link href='https://fonts.googleapis.com/css?family=Istok+Web&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
- 	<link href='https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
- 	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
- 	<link href='https://fonts.googleapis.com/css?family=PT+Sans:400italic|Bad+Script|Forum|Ubuntu+Mono:400,700italic|Lobster|PT+Sans+Narrow&subset=latin,cyrillic,cyrillic-ext' rel='stylesheet' type='text/css'>
- 	<link href='https://fonts.googleapis.com/css?family=Fira+Sans' rel='stylesheet' type='text/css'>
- <script src="assets/js/libs/prefixfree.min.js"></script>
-	 <script src="assets/js/libs/modernizr-2.8.3.dev.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Marck+Script&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+ 	<link href='https://fonts.googleapis.com/css?family=PT+Sans:400italic|Istok+Web|Bad+Script|Forum|Ubuntu+Mono:400,700italic|Lobster|PT+Sans+Narrow&amp;subset=latin,cyrillic,cyrillic-ext' rel='stylesheet' type='text/css'>
+
+ 	<script src="assets/js/libs/prefixfree.min.js"></script>
+	<script src="assets/js/libs/modernizr-2.8.3.dev.js"></script>
 </head>
 <body>
 <div class="wrapper">
@@ -70,6 +57,7 @@
 			</ul>
 		</nav>
 	</header>
+
 	<section id="pages" class="group">
 		<div id="loadcontent" class="group">
 			<nav id="tabs">
@@ -88,7 +76,7 @@
 						<span class="info">
 							<span class="photoname">Черняхівський районний суд</span>
 							<span class="description">У теперішній час Черняхівський районний суд Житомирської області розташовано у двоповерховій будівлі за адресою: Житомирська область, Черняхівський районний суд, смт. Черняхів, вул. Червоноармійська, 1.</span>
-							<span class="rating">(04134) 4-13-46</span>
+							<a href="tel:0413441346" class="rating">(04134) 4-13-46</a>
 						</span>
 					</li>
 					<li class="group">
@@ -96,7 +84,7 @@
 						<span class="info">
 							<span class="photoname">Суворовський районний суд</span>
 							<span class="description">На сьогоднішній  день Суворовський районний суд м. Одеси розглядає цивільні, кримінальні, адміністративні справи та справи про адміністративні правопорушення в порядку першої інстанції. Штат суду складається з 117 осіб.</span>
-							<span class="rating">(048) 785-68-37</span>
+							<a href="tel:0487856837" class="rating">(048) 785-68-37</a>
 						</span>
 					</li>
 					<li class="group">
@@ -104,7 +92,7 @@
 						<span class="info">
 							<span class="photoname">Городищенський районий суд</span>
 							<span class="description">Відповідно до положень Закону України " Про внесення змін та доповнень до Закону України " Про судоустрій " прийнятого 24 лютого 1994р. Городищенський районний народний суд став назватися Городищенським районним судом.</span>
-							<span class="rating">(04734) 2-05-81</span>
+							<a href="tel:0473420581" class="rating">(04734) 2-05-81</a>
 						</span>
 					</li>	
 					<li class="group">
@@ -112,7 +100,7 @@
 						<span class="info">
 							<span class="photoname">Городенківський районний суд</span>
 							<span class="description">Зараз в Городенківському районному суді загальна чисельність становить 24  працівники, з них: 4 судді, 18 державних службовців і 2 прибиральниці.</span>
-							<span class="rating">(03430) 2-27-86</span>
+							<a href="tel:0343022786" class="rating">(03430) 2-27-86</a>
 						</span>
 					</li>
 					<li class="group">
@@ -120,11 +108,11 @@
 						<span class="info">
 							<span class="photoname">Бориславський міський суд</span>
 							<span class="description">Бориславський міський суд Львівської області розглядає кримінальні, цивільні, адміністративні справи, а також справи про адміністративні правопорушення у випадках та порядку, передбачених процесуальним законом.</span>
-							<span class="rating">(03248) 5-20-44</span>
+							<a href="tel:0324852044" class="rating">(03248) 5-20-44</a>
 						</span>
 					</li>						
 				</ul>			
-			</section> <!-- Плохие суды -->
+			</section> 
 			<section class="courtlist hide" id="specialized_courts">
 				<h2>Спеціалізовані суди</h2>
 				<p>Місцевими господарськими судами є господарські суди областей, міста Києва, а місцевими адміністративними судами є окружні суди, що утворюються в округах відповідно до указу Президента.</p>
@@ -134,7 +122,7 @@
 						<span class="info">
 							<span class="photoname">Господарський суд Донецької області</span>
 							<span class="description">Це місцевий спеціалізований господарський суд першої інстанції загальної юрисдикції, розташований в місті Донецьку, юрисдикція якого поширюється на Донецьку область.</span>
-							<span class="rating">(057) 702-01-09</span>
+							<a href="tel:0577020109" class="rating">(057) 702-01-09</a>
 						</span>
 					</li>
 					<li class="group">
@@ -142,7 +130,7 @@
 						<span class="info">
 							<span class="photoname">Господарський суд Харківської області</span>
 							<span class="description">Це місцевий спеціалізований господарський суд першої інстанції загальної юрисдикції, розташований в місті Донецьку, юрисдикція якого поширюється на Харківську область.</span>
-							<span class="rating">(057) 703-47-19</span>
+							<a href="tel:0577034719" class="rating">(057) 703-47-19</a>
 						</span>
 					</li>					
 					<li class="group">
@@ -150,7 +138,7 @@
 						<span class="info">
 							<span class="photoname">Господарський суд Полтавської області</span>
 							<span class="description">Це місцевий спеціалізований господарський суд першої інстанції загальної юрисдикції, розташований в місті Донецьку, юрисдикція якого поширюється на Полтавську область.</span>
-							<span class="rating">(0532) 56-45-95 </span>
+							<a href="tel:0532564595 " class="rating">(0532) 56-45-95 </a>
 						</span>
 					</li>
 					<li class="group">
@@ -158,7 +146,7 @@
 						<span class="info">
 							<span class="photoname">Закарпатський окружний адміністративний суд</span>
 							<span class="description">Це місцевий спеціалізований адміністративний суд першої інстанції загальної юрисдикції, розташований у місті Одесі, юрисдикція якого поширюється на Закарпатську область.</span>
-							<span class="rating">(0312) 64-07-61</span>
+							<a href="tel:0312640761" class="rating">(0312) 64-07-61</a>
 						</span>
 					</li>
 					<li class="group">
@@ -166,11 +154,11 @@
 						<span class="info">
 							<span class="photoname">Волинський окружний адміністративний суд</span>
 							<span class="description">Це місцевий спеціалізований адміністративний суд першої інстанції загальної юрисдикції, розташований у місті Одесі, юрисдикція якого поширюється на Волинську область.</span>
-							<span class="rating">(0332) 72-78-72</span>
+							<a href="tel:0332727872" class="rating">(0332) 72-78-72</a>
 						</span>
 					</li>								
 				</ul>
-			</section> <!-- Хорошие суды -->
+			</section> 
 			<section class="courtlist hide" id="high_courts">
 				<h2>Вищі суди</h2>
 				<p>У вищому спеціалізованому суді можуть утворюватися судові палати з розгляду окремих категорій справ за визначеною спеціалізацією в межах відповідної спеціалізації судової юрисдикції.</p>
@@ -180,7 +168,7 @@
 						<span class="info">
 							<span class="photoname">Вищий адмiнiстративний суд України</span>
 							<span class="description">Вищий адміністративний суд України діє як суд першої інстанції по конкретних категоріях справ, а також як суд апеляційної та касаційної інстанцій.</span>
-							<span class="rating">(044) 501-95-25</span>
+							<a href="tel:0445019525" class="rating">(044) 501-95-25</a>
 						</span>
 					</li>
 					<li class="group">
@@ -188,7 +176,7 @@
 						<span class="info">
 							<span class="photoname">Вищий господарський суд України</span>
 							<span class="description">Вищий господарський суд України — вищий спеціалізований суд України і суд касаційної інстанції з розгляду господарських справ.</span>
-							<span class="rating">(044) 536-18-01</span>
+							<a href="tel:0445361801" class="rating">(044) 536-18-01</a>
 						</span>
 					</li>					
 					<li class="group">
@@ -196,7 +184,7 @@
 						<span class="info">
 							<span class="photoname">Вищий спеціалізований суд України з розгляду цивільних і кримінальних справ</span>
 							<span class="description">Вищий спеціалізований суд України з розгляду цивільних і кримінальних справ — суд касаційної інстанції для цивільних і кримінальних справ в системі судів загальної юрисдикції України.</span>
-							<span class="rating">(044) 591-10-00</span>
+							<a href="tel:0445911000" class="rating">(044) 591-10-00</a>
 						</span>
 					</li>
 					<li class="group">
@@ -204,7 +192,7 @@
 						<span class="info">
 							<span class="photoname">Верховний Суд України</span>
 							<span class="description">Верховний Суд України — найвищий судовий орган в українській системі судів загальної юрисдикції. Здійснює правосуддя, забезпечує єдність судової практики у порядку та спосіб, визначені процесуальним законом.</span>
-							<span class="rating">(044) 253-33-13</span>
+							<a href="tel:0442533313" class="rating">(044) 253-33-13</a>
 						</span>
 					</li>	
 					<li class="group">
@@ -212,11 +200,11 @@
 						<span class="info">
 							<span class="photoname">Конституційний Суд України</span>
 							<span class="description">Конституційний Суд України — єдиний орган конституційної юрисдикції в Україні, завданням якого є гарантування верховенства Конституції України як Основного Закону держави на всій території України.</span>
-							<span class="rating">(044) 253-02-87</span>
+							<a href="tel:0442530287" class="rating">(044) 253-02-87</a>
 						</span>
 					</li>							
 				</ul>
-			</section> <!-- Хорошие суды -->
+			</section>
 		</div>	
 	</section>
 	<footer class="group">
